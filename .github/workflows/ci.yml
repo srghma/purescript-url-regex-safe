@@ -30,6 +30,8 @@ jobs:
             .spago
             output
 
+      - run: npm install
+
       - run: spago build --strict --ensure-ranges --pedantic-packages
 
       - run: spago test --strict --pedantic-packages --offline
