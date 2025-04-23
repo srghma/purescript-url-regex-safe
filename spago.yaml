@@ -1,0 +1,22 @@
+package:
+  name: url-regex-safe
+  publish:
+    license: Apache-2.0
+    version: 0.1.0
+    location:
+      githubOwner: srghma
+      githubRepo: purescript-url-regex-safe
+  dependencies:
+    - strings: ">=6.0.1 <7.0.0"
+  test:
+    main: Test.Main
+    dependencies:
+      - effect
+      - prelude
+      - spec
+      - spec-node
+      - strings
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 64.2.0

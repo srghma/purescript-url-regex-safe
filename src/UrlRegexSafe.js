@@ -3,4 +3,4 @@
 // to install
 //
 // npm install url-regex-safe
-exports.urlRegexSafe = require('url-regex-safe');
+export { default as urlRegexSafe } from 'url-regex-safe'
